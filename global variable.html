@@ -1,0 +1,22 @@
+<html>
+	<head>
+	<script type="text/javascript">
+	count=5;
+	var a=4;
+	function funccount()
+	{
+	count+=5;
+	a+=4;
+	document.write("<b>inside function Global Count:</b>"+count+"<br>");
+	document.write("<b>inside function Gloabal A:</b>"+a+"<br>");
+	}
+	</script>
+	</head>
+<body>
+	<script type="text/javascript">
+	document.write("<b>Outside function global count:</b>"+count+"<br>");
+	document.write("<b>Outside function global A:</b>"+a+"<br>");
+	funccount()
+	</script>
+	</body>
+	</html>
